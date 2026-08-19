@@ -95,7 +95,7 @@ export function SiteNav() {
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
             onClick={() => setOpen((v) => !v)}
-            className="relative grid h-11 w-11 place-items-center rounded-xl border border-border bg-card text-foreground xl:hidden"
+            className="relative grid h-11 w-11 place-items-center rounded-xl border border-border bg-card text-foreground lg:hidden"
           >
             <Menu
               className={cn(
@@ -115,7 +115,7 @@ export function SiteNav() {
 
       <div
         className={cn(
-          "overflow-hidden border-t border-border/60 bg-background/98 backdrop-blur-xl transition-[max-height,opacity] duration-500 xl:hidden",
+          "overflow-hidden border-t border-border/60 bg-background/98 backdrop-blur-xl transition-[max-height,opacity] duration-500 lg:hidden",
           open ? "max-h-[80vh] opacity-100" : "max-h-0 opacity-0",
         )}
       >
