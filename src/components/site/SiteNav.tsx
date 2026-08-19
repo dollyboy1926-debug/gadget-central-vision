@@ -77,7 +77,7 @@ export function SiteNav() {
                 {s.label}
                 <span
                   className={cn(
-                    "absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-[var(--gradient-brand)] transition-all duration-300",
+                    "absolute inset-x-3 -bottom-0.5 h-0.5 rounded-full bg-[image:var(--gradient-brand)] transition-all duration-300",
                     active === s.id ? "opacity-100" : "scale-x-0 opacity-0",
                   )}
                 />
