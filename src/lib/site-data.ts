@@ -61,6 +61,19 @@ export const navSections = [
   { id: "contact", label: "Contact Us" },
 ];
 
+/** Condensed set shown in the desktop bar; the full list lives in the mobile menu + footer. */
+export const navPrimary = [
+  { id: "home", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "vision", label: "Vision" },
+  { id: "milestones", label: "Milestones" },
+  { id: "products", label: "Products" },
+  { id: "strengths", label: "Strengths" },
+  { id: "clientele", label: "Clientele" },
+  { id: "model", label: "Business Model" },
+  { id: "operations", label: "Operations" },
+];
+
 export const missionPoints = [
   "Deliver reliable and high-quality products to cooperatives and government institutions",
   "Expand strategic partnerships with cooperatives nationwide",
