@@ -37,7 +37,7 @@ export function SalesStrategy() {
               src={photos.oppoCustomer.url}
               alt={photos.oppoCustomer.alt}
               loading="lazy"
-              className="h-72 w-full rounded-[2rem] border border-border object-cover object-top shadow-[var(--shadow-lift)]"
+              className="h-72 w-full rounded-[2rem] border border-border object-cover object-center shadow-[var(--shadow-lift)]"
             />
             <img
               src={photos.goldRoadshow.url}
