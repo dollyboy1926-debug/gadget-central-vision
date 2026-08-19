@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
-import { brand, navSections } from "@/lib/site-data";
+import { brand, navSections, navPrimary } from "@/lib/site-data";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
