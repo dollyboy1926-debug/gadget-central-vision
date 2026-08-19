@@ -62,8 +62,8 @@ export function SiteNav() {
           </span>
         </a>
 
-        <ul className="hidden items-center gap-0.5 xl:flex">
-          {navSections.map((s) => (
+        <ul className="hidden items-center gap-0.5 lg:flex">
+          {navPrimary.map((s) => (
             <li key={s.id}>
               <a
                 href={`#${s.id}`}
