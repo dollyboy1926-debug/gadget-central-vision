@@ -1,11 +1,11 @@
-import logoAsset from "@/assets/logo.png.asset.json";
-import goldRoadshow from "@/assets/photo-gold-roadshow.jpg.asset.json";
-import teamSetup from "@/assets/photo-team-setup.jpg.asset.json";
-import oppoCustomer from "@/assets/photo-oppo-customer.jpg.asset.json";
-import roadshowCounter from "@/assets/photo-roadshow-counter.jpg.asset.json";
-import letter1 from "@/assets/letter-1.jpg.asset.json";
-import letter2 from "@/assets/letter-2.jpg.asset.json";
-import letter3 from "@/assets/letter-3.jpg.asset.json";
+import logoUrl from "@/assets/logo.png";
+import goldRoadshowUrl from "@/assets/photo-gold-roadshow.jpg";
+import teamSetupUrl from "@/assets/photo-team-setup.jpg";
+import oppoCustomerUrl from "@/assets/photo-oppo-customer.jpg";
+import roadshowCounterUrl from "@/assets/photo-roadshow-counter.jpg";
+import letter1Url from "@/assets/letter-1.jpg";
+import letter2Url from "@/assets/letter-2.jpg";
+import letter3Url from "@/assets/letter-3.jpg";
 
 /** All imagery below is extracted directly from the Gadget Central company profile PDF. */
 export const brand = {
