@@ -1,11 +1,11 @@
-import logoAsset from "@/assets/logo.png.asset.json";
-import goldRoadshow from "@/assets/photo-gold-roadshow.jpg.asset.json";
-import teamSetup from "@/assets/photo-team-setup.jpg.asset.json";
-import oppoCustomer from "@/assets/photo-oppo-customer.jpg.asset.json";
-import roadshowCounter from "@/assets/photo-roadshow-counter.jpg.asset.json";
-import letter1 from "@/assets/letter-1.jpg.asset.json";
-import letter2 from "@/assets/letter-2.jpg.asset.json";
-import letter3 from "@/assets/letter-3.jpg.asset.json";
+import logoUrl from "@/assets/logo.png";
+import goldRoadshowUrl from "@/assets/photo-gold-roadshow.jpg";
+import teamSetupUrl from "@/assets/photo-team-setup.jpg";
+import oppoCustomerUrl from "@/assets/photo-oppo-customer.jpg";
+import roadshowCounterUrl from "@/assets/photo-roadshow-counter.jpg";
+import letter1Url from "@/assets/letter-1.jpg";
+import letter2Url from "@/assets/letter-2.jpg";
+import letter3Url from "@/assets/letter-3.jpg";
 
 /** All imagery below is extracted directly from the Gadget Central company profile PDF. */
 export const brand = {
@@ -13,7 +13,7 @@ export const brand = {
   short: "Gadget Central",
   regNo: "1099463-H",
   tagline: "Driving Smart Consumer Solutions Across Malaysia",
-  logo: logoAsset.url,
+  logo: logoUrl,
   phone1: "03-7887 7275",
   phone2: "012-535 1011",
   email: "info.gadgetcentral@gmail.com",
@@ -26,24 +26,24 @@ export const brand = {
 
 export const photos = {
   goldRoadshow: {
-    url: goldRoadshow.url,
+    url: goldRoadshowUrl,
     alt: "Gadget Central roadshow counter with 916 gold jewellery and smartphones being viewed by cooperative members",
   },
   teamSetup: {
-    url: teamSetup.url,
+    url: teamSetupUrl,
     alt: "Gadget Central team setting up product displays at a nationwide roadshow",
   },
   oppoCustomer: {
-    url: oppoCustomer.url,
+    url: oppoCustomerUrl,
     alt: "Customer collecting a new smartphone at a Gadget Central roadshow",
   },
   roadshowCounter: {
-    url: roadshowCounter.url,
+    url: roadshowCounterUrl,
     alt: "Cooperative members browsing laptops and consumer products at a Gadget Central roadshow",
   },
-  letter1: { url: letter1.url, alt: "Appointment letter from a cooperative partner" },
-  letter2: { url: letter2.url, alt: "Appointment letter from a cooperative partner" },
-  letter3: { url: letter3.url, alt: "Appointment letter from a cooperative partner" },
+  letter1: { url: letter1Url, alt: "Appointment letter from a cooperative partner" },
+  letter2: { url: letter2Url, alt: "Appointment letter from a cooperative partner" },
+  letter3: { url: letter3Url, alt: "Appointment letter from a cooperative partner" },
 };
 
 export const navSections = [
